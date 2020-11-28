@@ -36,7 +36,7 @@ app.get('/about', (req, res) => {
 
 app.get('/help', (req, res) => {
     res.render('help', {
-        helpmsg: 'Make sure to put a semicolon at the end!',
+        helpmsg: '101 assistance guide for using this not so complex weather web application',
         title: 'Help',
         name: 'Andrei Caia'
     })
