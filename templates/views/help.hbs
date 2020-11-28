@@ -2,17 +2,45 @@
 <html>
 
 <head>
-    <title>Help</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="/css/styles.css">
     <link rel="icon" href="/img/weather.png">
+    <title>Help</title>
 </head>
 
 <body>
     <div class="main-content">
         {{>header}}
-        <p>
+        <p class="msg">
             {{helpmsg}}
         </p>
+        <p class="list">
+            A list of helpful things
+        </p>
+        <ul class="helpful">
+            <li>
+                <p>The unit of temperature is Celsius, there is no Fahrenheit. Sorry!</p>
+            </li>
+            <li>
+                <p>You can only navigate between the pages <a href="/">Weather</a>, <a href="/about">About</a> and <a href="/help">Help</a>.</p>
+            </li>
+            <li>
+                <p>In order to look up the weather in your area you need to type it in the search bar on the main page.</p>
+            </li>
+            <li>
+                <p>If the search throws up an error, check your spelling.</p>
+            </li>
+            <li>
+                <p>You can search for places from all around the world as long as they exist.</p>
+            </li>
+            <li>
+                <p>If you have any questions or concerns you can contact me by <a href="mailto:andrei.alexandrucaia@gmail.com">mail</a>.</p>
+            </li>
+            <li>
+                <p>There is not much design to this webpage because I created this while following a back-end focused course. Besides, it's a simple app and the interface needs to stay simple too.</p>
+            </li>
+        </ul>
     </div>
 
     {{>footer}}

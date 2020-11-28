@@ -2,18 +2,31 @@
 <html>
 
 <head>
-    <title>About</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="/css/styles.css">
     <link rel="icon" href="/img/weather.png">
+    <title>About</title>
 </head>
 
 <body>
     <div class="main-content">
         {{>header}}
         <p>
-            This site was created by Andrei Caia. It uses data from mapbox.com and darksky.net!
+            This site was created by Andrei Caia. It uses data from mapbox.com and darksky.net
         </p>
         <img class="robot" src="img/robot.png" />
+        <span class="disclaimer">(The above image is not a depiction of the creator)</span>
+    </div>
+    <div class="info-links">
+        <p class="github">Check out my GitHub</p>
+        <div class ="links-container">
+            <ul class="links_list">
+                <li class="list_item">
+                    <a href="https://github.com/andreialexc30">https://github.com/andreialexc30</a>
+                </li>
+            </ul>
+        </div>
     </div>
 
     {{>footer}}
