@@ -12,6 +12,7 @@ body {
 
 .main-content {
     flex-grow: 1;
+    margin-bottom: 2.2em;
 }
 
 footer {
@@ -54,3 +55,34 @@ button {
     padding: 8px;
 }
 
+.disclaimer {
+    display: flex;
+    font-size: 12px;
+}
+
+a {
+    text-decoration: none;
+    color: #888888;
+    
+}
+
+a:hover {
+    color: #474343
+}
+
+.github {
+    font-size: 1.25em;
+}
+
+.msg {
+    font-size: 1.2em;
+}
+
+.list {
+    font-size: 1.1em;
+}
+
+.helpful {
+    width: 100%;
+    line-height: 1.25em;
+}
